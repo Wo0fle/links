@@ -15,6 +15,10 @@ ul {
     list-style-type: none;
 }
 
-.link-container {
+.container {
     width: max-content;   
+}
+
+.hidden {
+    display: none;
 }
