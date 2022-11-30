@@ -6,4 +6,15 @@
 
 body {
     font-family: 'Inter', Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.link-container {
+    width: max-content;   
 }
