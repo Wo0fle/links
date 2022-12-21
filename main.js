@@ -1,8 +1,9 @@
 const hideable = document.getElementsByClassName("hideable");
 let curProfile;
-let title;
+let title = "Seby Amador";
 
 const changeProfile = () => {
+    document.getElementById("name-location-2").innerHTML = title;
     if (curProfile === 'woofle') {
         curProfile = 'seby';
         title = 'Seby Amador';
@@ -20,7 +21,7 @@ const changeProfile = () => {
         }
     }
     document.title = title + "'s Links";
-    document.getElementById("name").innerHTML = title;
+    document.getElementById("name-location-1").innerHTML = title;
 }
 
 //////////////////////////////////////////////////////////

@@ -10,7 +10,7 @@ html {
     height: 100%;
 }
 
-body {
+body {  
     font-family: 'Inter', Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
     text-align: center;
@@ -29,6 +29,19 @@ body {
 
 #container {
     flex: 1;
+    
+    animation: fadeIn ease-in 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 /***************************************************/
@@ -41,7 +54,17 @@ h1 {
 /***************************************************/
 
 img {
+    transition: .2s;
+
     border-radius: 50%;
+}
+
+img:hover {
+    transform: scale(.9); 
+}
+
+i {
+    font-size: smaller;
 }
 
 /***************************************************/
@@ -75,8 +98,8 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-    /*text-decoration: underline;*/
-    transform: scale(1.3)
+    transform: scale(1.3);
+    font-weight: bold;
 }
 
 /***************************************************/
