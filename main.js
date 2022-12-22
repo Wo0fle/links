@@ -38,5 +38,5 @@ changeProfile(); // set profile initially to Woofle
 document.body.addEventListener('click', (event) => {
     if (event.target.tagName === 'IMG') {
         changeProfile(); // when pfp clicked, change profile
-    } 
+    }
 });
