@@ -94,12 +94,66 @@ a:link, a:visited {
 
     color: white;
     text-decoration: none;
-    background-color: var(--woofleBlue);
 }
 
 a:hover, a:active {
     transform: scale(1.3);
     font-weight: bold;
+}
+
+/***************************************************/
+
+a.twitch {
+    background-color: #9146FF;
+}
+
+a.youtube {
+    background-color: #FF0000;
+}
+
+a.tiktok {
+    background-color: black;
+    
+    color: #00f2ea;
+    text-shadow: 1.5px 1.5px #ff0050 ;
+}
+
+a.instagram {
+    background: linear-gradient(45deg, #405DE6, #5B51D8, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+}
+
+a.github {
+    background-color: black;
+}
+
+a.itch-io {
+    background-color: #fa5c5c;
+}
+
+a.gamebanana {
+    background-color: #eee442;
+    
+    color: black;
+}
+
+a.wca {
+    background: linear-gradient(135deg, rgba(0,0,0,0) 66%, 66%, #e12929),
+                linear-gradient(45deg, #ddde45 33%, 33%, rgba(0,0,0,0)),
+                linear-gradient(180deg, #304a97 100%, 100%, rgba(0,0,0,0));
+}
+
+a.spotify {
+    background-color: #1DB954;
+
+    color: #191414;
+}
+
+a.soundcloud {
+    background-color: #ff7700;
+}
+
+a.apple-music {
+    background: linear-gradient(to top, #fc3c44, #f94c57)
 }
 
 /***************************************************/
