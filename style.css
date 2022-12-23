@@ -4,11 +4,11 @@
 
 :root {
     --woofleBlue: #0049FF;
-    --tadDarkerWoofleBlue: #0039c8;
 }
 
 ::selection {
     background-color: var(--woofleBlue);
+
     color: white;
 }
 
@@ -23,33 +23,35 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--tadDarkerWoofleBlue);     
+    background: #0039c8;     
 }
 
 html {
     height: 100%;
 }
 
-body {  
-    font-family: 'Inter', Verdana, Geneva, Tahoma, sans-serif;
-    font-size: large;
-    text-align: center;
-    justify-content: center;
-
-    background-color: black;
-    background-image: url('./images/bg.jpg');
-    color: white;
-
+body {
+    min-height: 100vh;
     margin: 0;
     padding: 0;
 
     display: flex;
-    min-height: 100vh;
     flex-direction: column;
+    justify-content: center;
+
+    background-color: black;
+    background-image: url('./images/bg.jpg');
+    
+    color: white;
+    font-family: 'Inter', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    text-align: center;
 }
 
 #container {
     flex: 1;
+
+    text-shadow: 2px 2px 4px black;
     
     animation: fadeIn ease-in 1s;
     animation-iteration-count: 1;
@@ -68,8 +70,9 @@ body {
 /***************************************************/
 
 h1 {
-    font-size: 50px;
     margin: 20px 0;
+
+    font-size: 50px;
 }
 
 /***************************************************/
@@ -79,13 +82,15 @@ h1 {
 }
 
 img {
-    transition: .2s;
-
     border-radius: 50%;
+
+    transition: .2s;
+    filter: drop-shadow(10px 10px 10px black);
 }
 
 img:hover {
     transform: scale(.9); 
+    filter: drop-shadow(3px 3px 3px black);
 }
 
 i {
@@ -99,9 +104,10 @@ i {
 }
 
 ul {
-    list-style-type: none;
     padding: 0;
     margin: 0;
+
+    list-style-type: none;
 }
 
 li {
@@ -109,10 +115,12 @@ li {
 }
 
 li a {
-    transition: 0.1s;
     display: inline-block;
 
+    transition: 0.1s;
+
     text-shadow: 0 0 5px black;
+    filter: drop-shadow(3px 3px 3px black);
 }
 
 a:link, a:visited {
@@ -122,12 +130,15 @@ a:link, a:visited {
 
 li a:link, li a:visited {
     padding: 5px;
+
     border-radius: 7px;
 }
 
 li a:hover, li a:active {
+    font-weight: 750;
+    
     transform: scale(1.3);
-    font-weight: bold;
+    filter: drop-shadow(5px 5px 5px black);
 }
 
 /***************************************************/
@@ -191,6 +202,7 @@ a.spotify {
     background-color: #1DB954;
 
     color: #191414;
+    font-weight: 500;
 
     text-shadow: none;
 }
@@ -228,8 +240,10 @@ a.deezer {
 /***************************************************/
 
 footer {
-    background-color: black;
     padding: 20px;
+    
+    background-color: black;
+    
     font-size: smaller;
 }
 
