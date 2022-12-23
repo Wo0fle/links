@@ -115,6 +115,11 @@ li a {
     text-shadow: 0 0 5px black;
 }
 
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
 li a:link, li a:visited {
     padding: 5px;
     border-radius: 7px;
@@ -236,11 +241,6 @@ footer {
 
 #cool-guy:hover{
     transform: rotateX(360deg);
-}
-
-a:link, a:visited {
-    color: white;
-    text-decoration: none;
 }
 
 footer a:active, footer a:hover {
