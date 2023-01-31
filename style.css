@@ -172,8 +172,13 @@ a.instagram {
     );
 }
 
+a.speedrun {
+    background-color: #109e76;
+}
+
 a.github {
     background-color: black;
+    text-shadow: none;
 }
 
 a.itch-io {
@@ -182,6 +187,7 @@ a.itch-io {
 
 a.gamebanana {
     background-color: black;
+    text-shadow: none;
 }
 
 #game {
@@ -202,7 +208,7 @@ a.spotify {
     background-color: #1DB954;
 
     color: #191414;
-    font-weight: 500;
+    font-weight: 600;
 
     text-shadow: none;
 }
