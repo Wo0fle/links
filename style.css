@@ -154,7 +154,7 @@ a.youtube {
 a.tiktok {
     background-color: black;
 
-    text-shadow: 0.7px 0.7px #ff0050, -0.7px -0.7px #00f2ea;
+    text-shadow: 0.8px 0.8px #ff0050, -0.8px -0.8px #00f2ea;
 }
 
 a.instagram {
@@ -170,6 +170,10 @@ a.instagram {
         #FCAF45,
         #FFDC80
     );
+}
+
+a.bluesky {
+    background: linear-gradient(#007dfe, #00bbfe)
 }
 
 a.speedrun {
