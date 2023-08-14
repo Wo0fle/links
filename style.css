@@ -185,6 +185,10 @@ a.github {
     text-shadow: none;
 }
 
+a.scp {
+    background-color: #823f3f;
+}
+
 a.itch-io {
     background-color: #fa5c5c;
 }
