@@ -41,6 +41,7 @@ body {
 
     background-color: black;
     background-image: url('./images/bg.jpg');
+    background-attachment: fixed;
     
     color: white;
     font-family: 'Inter', Verdana, Geneva, Tahoma, sans-serif;
