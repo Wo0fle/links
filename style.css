@@ -220,6 +220,10 @@ a.allminebabyyyy {
     background-color: var(--woofleBlue);
 }
 
+a.allminebabyyyy:hover {
+    background-color: #3bb0ff;
+}
+
 a.spotify {
     background-color: #1DB954;
 
