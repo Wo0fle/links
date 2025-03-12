@@ -156,7 +156,6 @@ a.youtube {
 
 a.tiktok {
     background-color: black;
-
     text-shadow: 0.8px 0.8px #ff0050, -0.8px -0.8px #00f2ea;
 }
 
@@ -194,7 +193,8 @@ a.scp {
 
 a.medal {
     background-color: #0f0f0d;
-    color: #f6ad39;
+    color: #ffaf34;
+    text-shadow: 0.8px 0.8px #ac307d, -0.8px -0.8px #6d41d8;
 }
 
 a.reddit {
@@ -217,7 +217,6 @@ a.wca {
     background: linear-gradient(135deg, rgba(0,0,0,0) 66%, 66%, #e12929),
                 linear-gradient(45deg, #ddde45 33%, 33%, rgba(0,0,0,0)),
                 linear-gradient(180deg, #304a97 100%, 100%, rgba(0,0,0,0));
-    
     text-shadow: 0 0 3px black;
 }
 
